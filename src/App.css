@@ -1,28 +1,92 @@
-.App {
-  text-align: center;
+.galleryShot {
+    width: 30%;
+    height: 30%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+    font-family: Arial Black;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.sb-logo {
+    width: 3%;
+    height: 3%;
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 600px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.itunes {
+    width: 80%;
+    height: 80%;
 }
 
-.App-intro {
-  font-size: large;
+.soundcloud {
+    width: 80%;
+    height: 80%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.spotify {
+    width: 80%;
+    height: 80%;
+}
+
+.main {
+    width: 30%;
+    height: 30%;
+}
+
+.side {
+    width: 20%;
+    height: 20%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.removeLink {
+    text-decoration: none;
+}
+
+#killColor {
+    color: #1c1d1d;
+}
+
+.removeLink:visited {
+    color: #1c1d1d;
+}
+
+.copyright {
+    position: relative;
+    display: block;
+    text-align: center;
+    bottom: -85px;
+    left: 60px;
+}
+
+.mainBar {
+    position: relative;
+    display: block;
+    top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brokeVideo {
+    position: relative;
+    display: block;
+    width: 600px;
+    height: 350px;
+    top: 50px;
+    left: 300px;
+}
+
+.services {
+    position: relative;
+    display: block;
+    float: right;
+    clear: both;
+    bottom: 220px;
+    right: 50px;
 }

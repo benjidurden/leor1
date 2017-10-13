@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "hover.css": "^2.2.1",
+    "normalize.css": "^7.0.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-materialize": "^1.0.15",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.14"
