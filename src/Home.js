@@ -31,7 +31,7 @@ class Home extends Component {
                 </div>
                 <div className="homeMain">
                 <iframe className="brokeVideo"
-                src="https://www.youtube-nocookie.com/embed/ygDPeoYpyLc?rel=0" frameBorder="0" allowFullScreen></iframe>
+                src="https://www.youtube-nocookie.com/embed/ygDPeoYpyLc?rel=0" frameBorder="0" allowFullScreen title="brokeVideo"></iframe>
                 </div>
                     <div className="services">
                     <div className="itunes">
