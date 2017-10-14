@@ -14,7 +14,7 @@ class Videos extends Component {
                     <Col className="mainBar hvr-grow" l={3}><a className="removeLink"
                     href="http://blog.stone-brook.com">Blog</a></Col>
                     <Col className="mainBar hvr-grow" l={3}>
-                    <Link className="removeLink" to = "/gallery">
+                    <Link className="removeLink" id="killSecondColor" to = "/gallery">
                     Gallery
                     </Link>
                     </Col>
@@ -27,7 +27,7 @@ class Videos extends Component {
                     href="http://store.stone-brook.com">Store</a></Col>
                     </Row>
                 </div>
-                <iframe className="brokeVideo"
+                <iframe className="brokeVideo" id="videoSecBroke"
                 src="https://www.youtube-nocookie.com/embed/ygDPeoYpyLc?rel=0" frameBorder="0" allowFullScreen title="brokeVideo"></iframe>
             </div>
         )

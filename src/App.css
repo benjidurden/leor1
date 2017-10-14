@@ -58,6 +58,10 @@ ul>li {
     color: #1c1d1d;
 }
 
+#killSecondColor {
+    color: #1c1d1d;
+}
+
 .removeLink:visited {
     color: #1c1d1d;
 }
@@ -67,7 +71,7 @@ ul>li {
     display: block;
     text-align: center;
     bottom: -85px;
-    left: -38px;
+    left: -65px;
 }
 
 .mainBar {
@@ -83,8 +87,8 @@ ul>li {
     display: block;
     width: 600px;
     height: 350px;
-    top: 50px;
-    left: 300px;
+    top: 16px;
+    left: 325px;
 }
 
 .services {
@@ -122,4 +126,9 @@ ul>li {
     height: 60%;
     margin-top: 30px;
     margin-left: 195px;
+}
+
+#videoSecBroke {
+    top: 30px;
+    left: 320px;
 }
