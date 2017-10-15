@@ -22,7 +22,9 @@ class Gallery extends Component {
                 <img className="carImg"
                 src='https://res.cloudinary.com/benjidurden/image/upload/v1507842247/Photo_Oct_11_3_13_48_PM_yz8fgy.jpg' alt="boltshot6" />
                 <Link to = "/">
-                <img className="sb-logo hvr-pulse" src="http://res.cloudinary.com/benjidurden/image/upload/v1507828599/-bolt_logo_irovx2.png" alt="bolt-logo" />
+                <img className="sb-logo hvr-pulse galleryLogo"
+                id="responsiveBolt"                
+                 src="http://res.cloudinary.com/benjidurden/image/upload/v1507828599/-bolt_logo_irovx2.png" alt="bolt-logo" />
                 </Link>
             {/* </Glide> */}
         </div>

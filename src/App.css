@@ -16,6 +16,10 @@ body {
     left: 600px;
 }
 
+.galleryLogo {
+    left: 720px;
+}
+
 .twitter {
     width: 80%;
     height: 80%;
@@ -142,11 +146,11 @@ ul>li {
         width: 8%;
         height: 8%;
         bottom: -50px;
-        left: 280px;
+        left: 270px;
     }
 
     .row .col.s3 {
-        left: 100px;
+        left: 80px;
     }
 
     .albumPhoto {
@@ -230,11 +234,131 @@ ul>li {
         left: 85px;
     }
 
+    #responsiveBolt {
+        left: 150px;
+    }
+
+    #videoSecBroke {
+        top: 80px;
+        left: 220px;
+        width: 140px;
+        height: 100px;
+    }
+
+    .videoCol {
+        left: 140px;
+    }
+
 }
 
 /* iPhone 5 */
 
 @media only screen and (min-width: 320px) and (max-width: 568px){
 
+
+.sb-logo {
+    left: 270px;
+}
+
+.row .col.s3 {
+    left: 80px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#killColor {
+    margin-left: 5px;
+}
+
+.albumPhoto {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    display: block;
+    top: 30px;
+    left: 110px;
+}
+
+.brokeVideo {
+    top: 150px;
+    left: 0px;
+}
+
+.social {
+    left: 100px;
+}
+
+.twitter, .instagram, .itunes, .soundcloud, .spotify {
+    width: 70%;
+    height: 70%;
+}
+
+.services, .social {
+    position: relative;
+    display: inline-block;
+    float: none;
+    clear: none;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.twitter{
+    position: relative;
+    display: block;
+    top: 100px;
+}
+
+.instagram {
+    position: relative;
+    display: block;
+    bottom: 24px;
+    left: 40px;
+    top: 75px;
+}
+
+.itunes {
+    position: relative;
+    display: block;
+    top: 125px;
+    left: 80px;
+}
+
+.soundcloud {
+    position: relative;
+    display: block;
+    top: 100px;
+    left: 120px;
+}
+
+.spotify {
+    position: relative;
+    display: block;
+    top: 75px;
+    left: 160px;
+}
+
+/* copyright */
+
+.copyright {
+    bottom: 0px;
+    top: 250px;
+    left: 85px;
+}
+
+#responsiveBolt {
+    left: 150px;
+}
+
+#videoSecBroke {
+    top: 80px;
+    left: 220px;
+    width: 140px;
+    height: 100px;
+}
+
+.videoCol {
+    left: 140px;
+}
 
 }

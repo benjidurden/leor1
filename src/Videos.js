@@ -11,19 +11,19 @@ class Videos extends Component {
                 </Link>
                 <div className="menuContainer">
                     <Row>
-                    <Col className="mainBar hvr-grow" l={3}><a className="removeLink"
+                    <Col className="mainBar hvr-grow videoCol" l={3}><a className="removeLink"
                     href="http://blog.stone-brook.com">Blog</a></Col>
-                    <Col className="mainBar hvr-grow" l={3}>
+                    <Col className="mainBar hvr-grow videoCol" l={3}>
                     <Link className="removeLink" id="killSecondColor" to = "/gallery">
                     Gallery
                     </Link>
                     </Col>
-                    <Col className="mainBar hvr-grow" l={3}>
+                    <Col className="mainBar hvr-grow videoCol" l={3}>
                     <Link className="removeLink" id="killColor" to ="/videos">
                     Videos
                     </Link>
                     </Col>
-                    <Col className="mainBar hvr-grow" l={3}><a className="removeLink"
+                    <Col className="mainBar hvr-grow videoCol" l={3}><a className="removeLink"
                     href="http://store.stone-brook.com">Store</a></Col>
                     </Row>
                 </div>
