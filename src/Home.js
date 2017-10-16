@@ -53,7 +53,7 @@ class Home extends Component {
                     </div>
                     <div className="services">
                     <div className="itunes">
-                    <a href="https://itunes.apple.com/us/album/a-milli/id287818308?i=287818317">
+                    <a href="https://itunes.apple.com/us/album/broke-single/id1296457043https://itunes.apple.com/us/album/broke-single/id1296457043">
                      <img className="itunes" src="https://res.cloudinary.com/benjidurden/image/upload/v1507851593/itunes_twjo6t.svg" alt="itunes" /></a>
                     </div>
                     <div className="soundcloud">
@@ -62,7 +62,7 @@ class Home extends Component {
                     src="https://res.cloudinary.com/benjidurden/image/upload/v1507851610/soundcloud100_iqss43.svg" alt="soundcloud" /></a>
                     </div>
                     <div className="spotify">
-                    <a href="https://open.spotify.com/track/6ScJMrlpiLfZUGtWp4QIVt">
+                    <a href="https://open.spotify.com/album/36jf2gHNTjblt8dADHonfJ">
                     <img className="spotify"
                     src="https://res.cloudinary.com/benjidurden/image/upload/v1507851602/spotify100_oxfrc9.svg" alt="spotify" /></a>
                     </div>
